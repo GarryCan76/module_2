@@ -1,0 +1,16 @@
+form{
+    font-family: Helvetica, Arial, sans-serif;
+}
+label{
+    float: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 15px;
+}
+#content form fieldset{
+    height: auto;
+    width: 350px;
+    border: 4px solid #4D365B;
+    padding: 10px 10px 10px 10px;
+    margin-left: 200px;
+}

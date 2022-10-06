@@ -1,0 +1,46 @@
+/* Making everything wire-frame */
+body {
+    margin: auto;
+    max-width: 1000px;
+    padding: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+div, section, main, aside, header, footer {
+    border: 1px solid lightgray;
+    padding: .5em;
+    margin-bottom: 1em;
+}
+
+#profile_photo {
+    width: 100px;
+    height: 100px;
+}
+/* header content */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+/* Center_row class creates flexbox */
+.center_row {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+/* Content types */
+.main_content {
+    width: 400px;
+    height: 400px;
+}
+
+.secondary_content {
+    width: 33%;
+    word-break: break-all;
+}
+
+.text_wrap {
+    width: 100%;
+}
