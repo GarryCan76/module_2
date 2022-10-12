@@ -1,3 +1,8 @@
+@font-face {
+    font-family: nsfont;
+    src: url("fonts/nssanbol-webfont.ttf");
+}
+
 .center_row{
     display: flex;
     align-items: center;
@@ -11,26 +16,54 @@
     flex-direction: column;
 }
 h1{
+    font-family: nsfont, sans-serif;
     font-size: 50px;
     margin: 0;
-    margin-top: 40px;
+    margin-top: 33px;
     color: #000066;
 }
 h2{
+    font-family: nsfont, sans-serif;
     position: absolute;
     font-size: 40px;
     color: #000066;
     margin: 0;
 }
 p{
-    font-size: 30px;
-    margin: 5px;
+    font-family: nsfont, sans-serif;
+    font-size: 27px;
+    margin: 0;
     color: #000066;
 }
 #platform{
     height: 340px;
     width: 140px;
     background-color: #000066;
+}
+#spoor_box{
+    position: relative;
+    width: 106px;
+    height: 106px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+#spoor_text{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    font-size: 20px;
+    margin: 2px;
+}
+#spoor_num{
+    font-size: 50px;
+    color: #000066;
+}
+#blue_box{
+    width: 25px;
+    height: 25px;
+    background-color: #000066;
+
 }
 #info{
     width: 560px;
@@ -67,8 +100,19 @@ p{
     margin: 2px;
     font-size: 25px;
 }
-#clock{
+#clock_box{
+    position: relative;
     width: 245px;
     height: 340px;
-    background-color: gray;
+    background-color: white;
+}
+#clock{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 20px;
+    top: 20px;
+}
+body{
+    background-color: dimgray;
 }
