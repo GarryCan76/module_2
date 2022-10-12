@@ -1,0 +1,31 @@
+#top_div{
+    background-image: url("https://assets.codepen.io/652/shania-pinnata-7E-vKgzahd8-unsplash.jpg");
+    width: 100%;
+    background-size: 1100px;
+}
+
+.center_col{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#img_1{
+    border-radius: 15px;
+}
+.description{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 50%;
+    background-image: linear-gradient(sandybrown, peachpuff);
+}
+
+li{
+    margin: 3px;
+}

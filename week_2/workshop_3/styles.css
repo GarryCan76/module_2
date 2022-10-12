@@ -1,0 +1,74 @@
+.center_row{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: row;
+}
+.center_col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 50px;
+    margin: 0;
+    margin-top: 40px;
+    color: #000066;
+}
+h2{
+    position: absolute;
+    font-size: 40px;
+    color: #000066;
+    margin: 0;
+}
+p{
+    font-size: 30px;
+    margin: 5px;
+    color: #000066;
+}
+#platform{
+    height: 340px;
+    width: 140px;
+    background-color: #000066;
+}
+#info{
+    width: 560px;
+    height: 340px;
+    background-color: #06042b;
+}
+#info_content{
+    position: relative;
+    width: 500px;
+    height: 175px;
+    background-color: white;
+}
+
+#intercity{
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+#ns_logo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 40px;
+}
+.destinations{
+    width: 498px;
+    height: 33px;
+    background-color: #000066;
+    border: 1px solid white;
+}
+.departures{
+    color: white;
+    margin: 2px;
+    font-size: 25px;
+}
+#clock{
+    width: 245px;
+    height: 340px;
+    background-color: gray;
+}

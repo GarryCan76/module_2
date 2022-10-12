@@ -1,14 +1,13 @@
 #content{
     display: inline-block;
     width: 550px;
-    height: 190px;
 
 }
 .fillin{
     margin: 10px;
     float: left;
     width: 250px;
-    height: 70px;
+    height: 40px;
 }
 body{
     display: flex;
