@@ -1,0 +1,74 @@
+#container{
+    width: 935px;
+    margin: 0 auto;
+}
+
+div{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+#header{
+    width: 890px;
+    height: 100px;
+}
+#sidebar{
+    width: 180px;
+    height: 500px;
+    float: left;
+}
+#content{
+    position: relative;
+    width: 670px;
+    height: 500px;
+    float: left;
+}
+#footer{
+    position: relative;
+    width: 893px;
+    height: 50px;
+    clear: left;
+}
+
+#sidebar_1{
+    width: 140px;
+    height: 40px;
+}
+
+.sidebar_2-3{
+    width: 48px;
+    height: 40px;
+    float: left;
+}
+
+#sidebar_4{
+    width: 140px;
+    height: 80px;
+    clear: left;
+}
+#feet{
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    left: 89%;
+}
+
+#content_1{
+    width: 140px;
+    height: 80px;
+}
+#content_2{
+    position: absolute;
+    width: 140px;
+    height: 80px;
+    bottom: 387px;
+    left: 72%;
+}
+p{
+    margin: 0;
+}
+
+img{
+    width: 175px;
+    height: 100px;
+}
