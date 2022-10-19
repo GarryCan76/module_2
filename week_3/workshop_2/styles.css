@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: block;
+    width: 100%;
+    height: 52px;
+    background-color: #388DE7;
+}
+#logo{
+    float: left;
+    width: 83px;
+    height: 83px;
+    background-color: orange;
+    border-radius: 50%;
+}
+#logo_text{
+    margin: 0;
+    color: white;
+    font-size: 25px;
+}
+#container{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.row{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+}
+.row > div{
+    width: 50%;
+    height: 60px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border: black 1px solid;
+}
+.right{
+    display: flex;
+    border: black 1px solid;
+}
+p{
+    margin: 5px;
+}
+input{
+    margin: 5px;
+}

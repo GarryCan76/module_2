@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+<header>
+    <img src="coolblue.jpg" alt="#">
+</header>
+<div id="container">
+    <form method="get">
+        <div class="row">
+            <div class="left">
+                <p>Type bestelling</p>
+            </div>
+            <div class="right">
+                <input type="radio" id="particulier" name="bestelling_type" value="particulier">
+                <label for="particulier">Particulier</label>
+                <input type="radio" id="zakelijk" name="bestelling_type" value="zakelijk">
+                <label for="zakelijk">Zakelijk</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <p>Aanhef</p>
+            </div>
+            <div class="right">
+                <input type="radio" id="dhr." name="aanhef_type" value="dhr.">
+                <label for="dhr.">dhr.</label>
+                <input type="radio" id="mevr." name="aanhef_type" value="mevr.">
+                <label for="mevr.">Mevr.</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <p>Naam</p>
+            </div>
+            <div class="right">
+                <input type="text" id="voornaam" name="v_naam" placeholder="Voornaam">
+                <input style="width: 70px" type="text" id="tussenvoegsel" name="t_naam" placeholder="Tussenv.">
+                <input type="text" id="achternaam" name="a_naam" placeholder="Achternaam">
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <p>Postcode</p>
+            </div>
+            <div class="right">
+                <input type="text" id="postcode" name="post" placeholder="1234AB">
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <p>Huisnummer</p>
+            </div>
+            <div class="right">
+                <input type="text" id="huisnummer" name="huis_num" placeholder="Huisnummer">
+                <input style="width: 50px" type="text" id="huistoev" name="huis_num" placeholder="Toev.">
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <p>Land</p>
+            </div>
+            <div class="right">
+                <p>Nederland</p>
+                <i class='fas fa-angle-right'></i>
+                <p>In België laten bezorgen</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <p>Afleveradres</p>
+            </div>
+            <div class="right">
+                <input type="radio" id="boven" name="levering_type" value="bovenstaand">
+                <label for="boven">Op bovenstaand adres bezorgen</label>
+                <input type="radio" id="onder" name="levering_type" value="onderstaand">
+                <label for="onder">Op ander adres bezorgen</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <p>E-mailadres</p>
+            </div>
+            <div class="right">
+                <input style="width: 300px" type="text" id="email" name="email" placeholder="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <p>Telefoonnummer</p>
+            </div>
+            <div class="right">
+                <input type="text" id="tel" name="telefoon" placeholder="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <p>Geboortedatum</p>
+            </div>
+            <div class="right">
+                <input type="text" id="g_datum" name="geboorte" placeholder="dd-mm-jjjj">
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <p>Verzendwijze factuur</p>
+            </div>
+            <div class="right">
+                <input type="radio" id="f_email" name="fact_email" value="bovenstaand">
+                <label for="f_email">Factuur per E-mail</label>
+                <input type="radio" id="p_email" name="print_email" value="onderstaand">
+                <label for="p_email">Factuur geprint bij bestelling</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <p>Nieuwsbrief</p>
+            </div>
+            <div class="right">
+                <input type="checkbox" id="nieuwsbrief" value="nieuwsbrief">
+                <label for="nieuwsbrief">Ja, ik wil de Coolblue-nieuwsbrief met voor <br> mijn volgende bestelling</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="left">
+                <p>Kleur verpakking</p>
+            </div>
+            <div class="right">
+                <input style="width: 150px" type="color">
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

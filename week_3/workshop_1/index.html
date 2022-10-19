@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formulier</title>
+</head>
+<body>
+<div id="container">
+    <form action="#" method="post">
+        Voornaam: <input type="text" name="vnaam"><br>
+        Achternaam: <input type="text" name="anaam"><br>
+        Datum: <input type="date" name="dtum"><br>
+        <input type="submit"><br>
+        <input type="datetime-local">
+        <input type="time">
+        <input type="week">
+        <input type="month">
+        <input id="country" type="text" name="country" size="40" list="countries">
+        <br><datalist id="countries">
+            <option value="Autralia">
+            <option value="Canada">
+            <option value="Germany">
+            <option value="France">
+            <option value="United Kingdom">
+            <option value="United States">
+        </datalist>
+        Number: <input type="number">
+        Number: <input type="number" min="5" max="100" step="5" value="10"><br>
+        E-mail: <input type="email" required><br>
+        File: <input type="file"><br>
+        Color: <input type="color"><br>
+        Range: <input type="range" min="1" max="10">
+    </form>
+</div>
+</body>
+</html>
