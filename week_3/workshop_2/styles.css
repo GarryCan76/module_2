@@ -52,3 +52,18 @@ p{
 input{
     margin: 5px;
 }
+.content_text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: blue;
+}
+h2{
+    margin: 10px;
+}
+h3{
+    margin: 10px;
+}
+label{
+    margin: 5px;
+}
