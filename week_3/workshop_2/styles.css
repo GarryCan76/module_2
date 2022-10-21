@@ -29,24 +29,23 @@ header{
     display: flex;
     align-items: stretch;
     width: 100%;
-    height: 60px;
-    background-color: gray;
 }
 .row > div{
     width: 50%;
-    height: 60px;
+
 }
 .left{
     display: flex;
     align-items: center;
     justify-content: right;
-    border: black 1px solid;
 }
 .right{
     display: flex;
-    border: black 1px solid;
 }
 p{
+    margin: 5px;
+}
+i{
     margin: 5px;
 }
 input{
@@ -56,14 +55,54 @@ input{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: blue;
 }
 h2{
     margin: 10px;
+    color: #154C9C;
 }
 h3{
     margin: 10px;
+    color: #23A3EE;
 }
 label{
+    margin: 5px;
+}
+
+#submit_div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+#submit_box{
+    margin: 10px;
+    width: 500px;
+    height: 50px;
+    background-color: whitesmoke;
+    border: 2px solid lightgray;
+}
+#submit{
+    float: right;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #00BA01;
+    color: white;
+    border-radius: 5px;
+}
+footer{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    height: 300px;
+    background-color: #388DE7;
+}
+.footer_content{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.service_li{
+    color: white;
     margin: 5px;
 }
